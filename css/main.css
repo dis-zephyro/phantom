@@ -1179,4 +1179,70 @@ ul {
       bottom: 21px;
       position: absolute; }
 
+.b07 {
+  color: #fff;
+  height: 950px;
+  padding-top: 45px;
+  background: url("../img/b07_bg.jpg") top center no-repeat; }
+  .b07 h2 {
+    margin-bottom: 30px; }
+    .b07 h2:before {
+      background: #b2c972; }
+  .b07 .text {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 30px; }
+  .b07 .manufacture {
+    padding: 0;
+    list-style: none;
+    margin: 0 -4px 50px -4px; }
+    .b07 .manufacture li {
+      width: 20%;
+      float: left;
+      padding: 0 4px;
+      position: relative; }
+      .b07 .manufacture li a {
+        top: 6px;
+        left: 10px;
+        right: 10px;
+        bottom: 6px;
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        border: 1px solid #fff; }
+        .b07 .manufacture li a:hover {
+          background: rgba(255, 255, 255, 0.8) url("../img/icon-zoom.png") 50% 50% no-repeat; }
+  .b07 .boss {
+    margin-left: 370px; }
+    .b07 .boss .boss-title {
+      font-size: 30px;
+      line-height: 40px;
+      position: relative;
+      margin-bottom: 25px;
+      padding-bottom: 15px; }
+      .b07 .boss .boss-title:before {
+        left: 0;
+        bottom: 0;
+        width: 165px;
+        height: 3px;
+        content: ' ';
+        position: absolute;
+        background: #b2c972; }
+    .b07 .boss .boss-text {
+      font-size: 15px;
+      line-height: 22px;
+      margin-bottom: 20px; }
+    .b07 .boss .boss-name {
+      font-size: 13px;
+      line-height: 22px;
+      margin-bottom: 25px; }
+
+.b08 {
+  padding: 60px 0; }
+  .b08 h2 {
+    margin-bottom: 30px; }
+    .b08 h2:before {
+      background: #b2c972; }
+
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,11 @@
+.b08 {
+	padding: 60px 0;
+
+	h2 {
+		margin-bottom: 30px;
+
+		&:before {
+			background: $color-green;
+		}
+	}
+}
