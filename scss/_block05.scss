@@ -1,0 +1,51 @@
+.b05 {
+	height: 470px;
+	padding-top: 50px;
+	background: url("../img/b05_bg.jpg") top center no-repeat;
+
+	.text-block {
+		float: left;
+		width: 635px;
+		padding-top: 120px;
+
+
+		.block-title {
+			color: #fff;
+			font-size: 48px;
+			font-weight: 700;
+			line-height: 50px;
+			margin-bottom: 30px;
+			text-transform: uppercase;
+			text-shadow: -3px 6px 30px rgba(0, 0, 0, 0.3);
+		}
+
+		.white-text {
+			color: #000;
+			width: 610px;
+			height: 42px;
+			font-size: 14px;
+			font-weight: 700;
+			line-height: 36px;
+			padding: 3px 10px 3px 20px;
+			position: relative;
+			background: #fff;
+
+			&:before {
+				top: 0;
+				right: -41px;
+				content: '';
+				position: absolute;
+				border: 21px solid transparent;
+				border-left: 20px solid #fff;
+			}
+		}
+	}
+
+
+	.b05-form {
+		width: 330px;
+		float: right;
+		background: #fff;
+		padding: 25px 20px;
+	}
+}

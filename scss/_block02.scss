@@ -1,0 +1,104 @@
+.b02 {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background: url("../img/b02_bg.jpg") top center no-repeat;
+
+	h2 {
+		&:before {
+			background: #87c8d3;
+		}
+	}
+
+	.product {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		display: table;
+		list-style: none;
+
+		li {
+			color: #115b67;
+			cursor: pointer;
+			min-width: 120px;
+			text-align: center;
+			padding-top: 140px;
+			display: table-cell;
+			position: relative;
+
+			> span {
+				font-size: 15px;
+				font-weight: 700;
+				line-height: 20px;
+				border-bottom: 1px dotted #115b67;
+			}
+
+			&:hover {
+
+				.circle {
+					display: table;
+				}
+
+			}
+
+			&.item1 {
+				background: url("../img/b02_item1.png") top center no-repeat;
+
+				&:before {
+					top: -90px;
+					left: -5px;
+					content: '';
+					width: 78px;
+					height: 102px;
+					position: absolute;
+					background: url("../img/push.png") 0 0 no-repeat;
+				}
+			}
+
+			&.item2 {
+				background: url("../img/b02_item2.png") top center no-repeat;
+			}
+
+			&.item3 {
+				background: url("../img/b02_item3.png") top center no-repeat;
+			}
+
+			&.item4 {
+				background: url("../img/b02_item4.png") top center no-repeat;
+			}
+
+			&.item5 {
+				background: url("../img/b02_item5.png") top center no-repeat;
+			}
+
+			&.item6 {
+				background: url("../img/b02_item6.png") top center no-repeat;
+			}
+
+			.circle {
+				top: 50%;
+				left: 50%;
+				width: 205px;
+				height: 205px;
+				display: none;
+				z-index: 50;
+				background: #fff;
+				position: absolute;
+				margin-top: -102px;
+				margin-left: -103px;
+				@include border-radius(50%);
+
+				span {
+					width: 190px;
+					height: 190px;
+					font-size: 12px;
+					padding: 0 20px;
+					font-weight: 400;
+					line-height: 16px;
+					text-align: center;
+					display: table-cell;
+					vertical-align: middle;
+				}
+			}
+		}
+	}
+}

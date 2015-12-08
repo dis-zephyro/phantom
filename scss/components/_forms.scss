@@ -1,0 +1,78 @@
+.form {
+	color: #000;
+	background: #fff;
+	text-align: center;
+
+	.form-text {
+		font-size: 15px;
+		font-weight: 700;
+		line-height: 22px;
+		margin: 0 -10px 20px -10px;
+	}
+
+	.btn {
+		width: 100%;
+		margin-top: 8px;
+	}
+
+	.sup {
+		font-size: 11px;
+		font-weight: 600;
+		text-align: left;
+		line-height: 16px;
+		padding-left: 20px;
+		margin-top: 10px;
+		background: url("../img/icon-safe.png") 0 0 no-repeat;
+	}
+}
+
+.form-control {
+	margin: 0;
+	width: 100%;
+	outline: none;
+	color: #595959;
+	font-size: 17px;
+	background: #fff;
+	line-height: 30px;
+	font-weight: 300;
+	display: inline-block;
+	border: 1px solid #a8abaf;
+	padding: 10px 10px 10px 50px;
+	@include border-radius(4px);
+	@include placeholder(#595959);
+
+	&::-ms-clear {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+
+	&.form-name {
+		background: url("../img/icon_user.png") 12px 50% no-repeat;
+	}
+
+	&.form-phone{
+		background: url("../img/icon_phone.png") 12px 50% no-repeat;
+	}
+
+	&.form-email {
+		background: url("../img/icon_email.png") 12px 50% no-repeat;
+	}
+}
+
+.red {
+
+	.form-control {
+		border-color: #ff0000;
+
+		&.invert {
+			border-color: #ff0000;
+		}
+	}
+}
+
+
+.form-group {
+	position: relative;
+	margin-bottom: 12px;
+}

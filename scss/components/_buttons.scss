@@ -1,0 +1,84 @@
+.btn {
+	margin:0;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20px;
+	text-align: center;
+	position: relative;
+	padding: 16px 20px;
+	display: inline-block;
+	text-decoration: none;
+	vertical-align: middle;
+	background-image: none;
+	touch-action: manipulation;
+	@include border-radius(4px);
+	@include transition(.3s);
+
+	&:hover {
+		color: #fff;
+
+		text-decoration: none;
+	}
+
+	&:active {
+		top: 1px;
+	}
+}
+
+.btn-green {
+	background: #b2c972;
+
+	&:hover {
+		background: #c6e07c;
+	}
+}
+
+.btn-mini-green {
+	font-size: 15px;
+	padding: 11px 10px;
+	background: #b2c972;
+
+	&:hover {
+		background: #c6e07c;
+	}
+}
+
+.btn-circle {
+	font-size: 13px;
+	padding: 11px 20px;
+	background: #b2c972;
+	@include border-radius(22px);
+
+	&:hover {
+		background: #c6e07c;
+	}
+}
+
+.btn-border-green {
+	width: 100%;
+	background: #fff;
+	padding: 9px 10px;
+	color: $color-green;
+	border: 2px solid $color-green;
+
+
+	&:hover {
+		color: #fff;
+		background: $color-green;
+	}
+}
+
+.btn-border-gray {
+	color: #000;
+	width: 100%;
+	padding: 10px 10px;
+	border: 1px solid #c4c4c4;
+
+	&:hover {
+		background: #c4c4c4;
+	}
+}

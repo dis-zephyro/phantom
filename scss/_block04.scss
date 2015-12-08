@@ -1,0 +1,197 @@
+.b04 {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-top: 7px solid #e1dfc6;
+	background: #7cdceb url("../img/b02_bg.jpg") top center no-repeat;
+
+	h2 {
+		color: #115b67;
+		font-size: 50px;
+		line-height: 60px;
+		margin-bottom: 30px;
+		padding-bottom: 35px;
+
+		&:before {
+			background: #87c8d3;
+		}
+	}
+
+	.text {
+		color: #115b67;
+		font-size: 15px;
+		line-height: 20px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.showcase {
+		padding: 0;
+		list-style: none;
+		margin: 0 -8px 30px -8px;
+
+		> li {
+			width: 25%;
+			float: left;
+			position: relative;
+			padding: 77px 8px 10px 8px;
+		}
+
+		.product {
+			height: 480px;
+			background: #fff;
+			position: relative;
+			padding: 10px 15px;
+			@include transition(.3s);
+			@include border-radius(5px);
+
+			&:hover {
+				margin-top: -5px;
+				@include transition(.3s);
+				@include box-shadow( 0px 7px 30px 0px rgba(0, 0, 0, 0.3));
+			}
+
+			.product-image {
+				margin-top: -87px;
+				text-align: center;
+				margin-bottom: 15px;
+			}
+
+			.product-name {
+				font-size: 30px;
+				font-weight: 700;
+				line-height: 30px;
+				text-align: center;
+				margin-bottom: 20px;
+			}
+
+			.product-text {
+				font-size: 14px;
+				line-height: 15px;
+				text-align: center;
+				position: relative;
+				margin-bottom: 20px;
+				padding-bottom: 20px;
+
+				&:before {
+					left: 50%;
+					bottom: 0;
+					width: 48px;
+					height: 3px;
+					content: '';
+					margin-left: -24px;
+					position: absolute;
+					background: $color-green;
+				}
+			}
+
+			.product-detail {
+				font-size: 14px;
+				line-height: 20px;
+				text-align: center;
+				margin-bottom: 10px;
+
+				ul {
+					margin: 0;
+					padding: 10px 0;
+					list-style: none;
+
+					li {
+						margin-bottom: 5px;
+
+
+						span {
+							padding-left: 22px;
+							display: inline-block;
+							background: url("../img/icon-ok.png") 0 50% no-repeat;
+						}
+					}
+				}
+			}
+
+			.tips {
+				top: 110px;
+				left: 16px;
+				width: 120px;
+				height: 44px;
+				padding: 10px;
+				display: block;
+				font-size: 14px;
+				font-weight: 700;
+				line-height: 16px;
+				position: absolute;
+				background: url("../img/tips.png") 0 0 no-repeat;
+			}
+		}
+	}
+
+	.showcase-more {
+		color: #fff;
+		font-size: 34px;
+		overflow: hidden;
+		text-align: center;
+		margin-bottom: 40px;
+
+		span {
+			cursor: pointer;
+			position: relative;
+			display: inline-block;
+			border-bottom: 2px dotted #fff;
+
+			&:before {
+				top: 25px;
+				left: -520px;
+				content: '';
+				width: 500px;
+				position: absolute;
+				border-bottom: 2px solid #fff;
+			}
+
+			&:after {
+				top: 25px;
+				right: -520px;
+				content: '';
+				width: 500px;
+				position: absolute;
+				border-bottom: 2px solid #fff;
+			}
+		}
+	}
+
+	.showcase-hide {
+		color: #fff;
+		font-size: 34px;
+		overflow: hidden;
+		text-align: center;
+		margin-bottom: 40px;
+
+		span {
+			cursor: pointer;
+			position: relative;
+			display: inline-block;
+			border-bottom: 2px dotted #fff;
+
+			&:before {
+				top: 25px;
+				left: -520px;
+				content: '';
+				width: 500px;
+				position: absolute;
+				border-bottom: 2px solid #fff;
+			}
+
+			&:after {
+				top: 25px;
+				right: -520px;
+				content: '';
+				width: 500px;
+				position: absolute;
+				border-bottom: 2px solid #fff;
+			}
+		}
+	}
+
+	.showcase-hidden {
+		display: none;
+	}
+}
+
