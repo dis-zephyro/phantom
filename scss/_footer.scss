@@ -1,0 +1,71 @@
+.footer {
+	padding-top: 35px;
+	padding-bottom: 40px;
+
+	.footer-logo {
+		float: left;
+		width: 152px;
+		margin-right: 40px;
+	}
+
+	.footer-info {
+		margin: 0;
+		padding: 20px 0 0 0 ;
+		float: left;
+		width: 280px;
+		list-style: none;
+
+		li {
+			font-size: 13px;
+			line-height: 24px;
+		}
+	}
+
+	.footer-dev {
+		float: left;
+		width: 180px;
+		padding-top: 20px;
+	}
+
+	.contact {
+		width: 275px;
+		float: right;
+
+		.top-phone {
+			color: #000;
+			font-size: 30px;
+			font-weight: 700;
+			line-height: 30px;
+			margin-bottom: 15px;
+			display: inline-block;
+			text-decoration: none;
+		}
+
+		.top-mail {
+			color: #000;
+			font-size: 15px;
+			font-weight: 600;
+			line-height: 18px;
+			position: relative;
+			margin-left: 20px;
+			margin-bottom: 20px;
+			display: inline-block;
+			text-decoration: none;
+			border-bottom: 1px dashed #000;
+
+			&:before {
+				top: 6px;
+				left: -20px;
+				width: 15px;
+				height: 11px;
+				content: ' ';
+				position: absolute;
+				background: url("../img/icon-mail-dark.png") 0 0 no-repeat;
+			}
+
+			&:hover {
+				border-bottom-color: transparent;
+			}
+		}
+	}
+}

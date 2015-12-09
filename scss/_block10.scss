@@ -1,0 +1,60 @@
+.b10 {
+	height: 460px;
+	position: relative;
+
+	#map {
+		height: 460px;
+	}
+
+	.b10-content {
+		top: 0;
+		left: 0;
+		right: 0;
+		position: absolute;
+	}
+
+	.address {
+		top: 70px;
+		right: 15px;
+		width: 330px;
+		padding: 25px 23px;
+		background: #fff;
+		position: absolute;
+
+		.address-title {
+			font-size: 38px;
+			line-height: 40px;
+			position: relative;
+			margin-bottom: 15px;
+			padding-bottom: 15px;
+
+			&:before {
+				left: 0;
+				bottom: 0;
+				width: 48px;
+				height: 3px;
+				content: ' ';
+				position: absolute;
+				background: $color-green;
+			}
+		}
+
+		ul {
+			margin: 0;
+			list-style: none;
+			padding: 5px 0 15px 0;
+
+			li {
+				font-size: 15px;
+				font-weight: 300;
+				line-height: 24px;
+				position: relative;
+				margin-bottom: 10px;
+			}
+		}
+
+		.btn {
+			width: 100%;
+		}
+	}
+}

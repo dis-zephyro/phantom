@@ -1,0 +1,32 @@
+.b09 {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: url("../img/b09_bg.jpg") top center no-repeat;
+
+	h2 {
+		margin-bottom: 30px;
+
+		&:before {
+			background: $color-green;
+		}
+	}
+
+	.reply {
+		margin: 0;
+		padding: 0;
+		font-size: 0;
+		line-height: 0;
+		list-style: none;
+		text-align: center;
+
+		li {
+			width: 245px;
+			height: 319px;
+			padding: 42px;
+			margin: 0 40px;
+			display: inline-block;
+			background: url("../img/cert_bg.jpg") 0 0 no-repeat;
+			@include box-shadow(19px 20px 27px 1px rgba(0,0,0,0.42));
+		}
+	}
+}

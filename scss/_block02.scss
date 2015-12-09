@@ -77,14 +77,14 @@
 			.circle {
 				top: 50%;
 				left: 50%;
-				width: 205px;
-				height: 205px;
+				width: 240px;
+				height: 240px;
 				display: none;
 				z-index: 50;
 				background: #fff;
 				position: absolute;
-				margin-top: -102px;
-				margin-left: -103px;
+				margin-top: -160px;
+				margin-left: -120px;
 				@include border-radius(50%);
 
 				span {
