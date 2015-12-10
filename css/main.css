@@ -596,6 +596,7 @@ ul {
 .btn-border-gray {
   color: #000;
   width: 100%;
+  display: none !important;
   padding: 10px 10px;
   border: 1px solid #c4c4c4; }
   .btn-border-gray:hover {
@@ -696,6 +697,11 @@ ul {
       display: block;
       font-size: 19px;
       line-height: 26px; }
+  .modal-box .form-text {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 -10px 20px -10px; }
   .modal-box .form-source {
     margin: 0;
     padding: 0 0 10px 0;
@@ -1093,7 +1099,7 @@ ul {
       position: relative;
       padding: 77px 8px 10px 8px; }
     .b04 .showcase .product {
-      height: 480px;
+      height: 440px;
       background: #fff;
       position: relative;
       padding: 10px 15px;
