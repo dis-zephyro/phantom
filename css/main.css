@@ -654,6 +654,13 @@ ul {
     display: none;
     width: 0;
     height: 0; }
+  .form-control:focus::-moz-placeholder {
+    color: transparent;
+    opacity: 1; }
+  .form-control:focus:-ms-input-placeholder {
+    color: transparent; }
+  .form-control:focus::-webkit-input-placeholder {
+    color: transparent; }
   .form-control.form-name {
     background: url("../img/icon_user.png") 12px 50% no-repeat; }
   .form-control.form-phone {

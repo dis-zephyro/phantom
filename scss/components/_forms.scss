@@ -56,6 +56,11 @@
 		height: 0;
 	}
 
+	&:focus {
+		@include placeholder(transparent);
+	}
+
+
 	&.form-name {
 		background: url("../img/icon_user.png") 12px 50% no-repeat;
 	}
