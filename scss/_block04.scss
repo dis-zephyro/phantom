@@ -37,7 +37,7 @@
 		}
 
 		.product {
-			height: 440px;
+			height: 470px;
 			background: #fff;
 			position: relative;
 			padding: 10px 15px;
@@ -120,6 +120,13 @@
 				line-height: 16px;
 				position: absolute;
 				background: url("../img/tips.png") 0 0 no-repeat;
+			}
+
+			.form-group {
+				left: 15px;
+				right: 15px;
+				bottom: 15px;
+				position: absolute;
 			}
 		}
 	}
